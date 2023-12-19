@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+    font-size: 18px;
+    font-family: 'Gentium Book Basic';
+}
+
+h1{
+    color: #1079ac
+}
+h2{
+    color: #1079ac
+}
+
+a:hover{
+    color:#1079ac
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    max-width: 45%;
+}
+
+bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 65%;
+}
+
+.signlearner{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.signlearner h{
+    font-size: 21px;
+    font-weight: bold;
+    color: black
+}
+
+.signlearner li{
+    list-style-type: square;
+}
