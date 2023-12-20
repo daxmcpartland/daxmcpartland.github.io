@@ -1,0 +1,36 @@
+top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+    font-size: 16px;
+    font-family: 'Gentium Book Basic';
+}
+
+h1{
+    text-align: center;
+    color:#1079ac;
+    font-size: 34px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    max-width: 50%;
+    width: 50%;
+}
+
+column{
+    display: flex;
+    flex-direction: column;
+}
+
+
