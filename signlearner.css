@@ -26,6 +26,7 @@ main{
     flex-direction: row;
     max-width: 50%;
     width: 50%;
+    justify-content: center;
 }
 
 column{

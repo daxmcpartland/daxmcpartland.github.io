@@ -1,4 +1,4 @@
-body{
+.container{
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -10,13 +10,15 @@ body{
 }
 
 h1{
-    color: #1079ac
+    color: #1079ac;
+    font-size: 45px;
 }
+
 h2{
     color: #1079ac
 }
 
-main{
+aboutme{
     display: flex;
     flex-direction: row;
     align-items: center;
