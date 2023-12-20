@@ -46,7 +46,7 @@ ul{
     flex-direction: row;
     gap: 25px;
 }
-.project h{
+.project a{
     font-size: 21px;
     font-weight: bold;
     color: black;
