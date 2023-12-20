@@ -16,10 +16,6 @@ h2{
     color: #1079ac
 }
 
-a:hover{
-    color:#1079ac
-}
-
 main{
     display: flex;
     flex-direction: row;
@@ -46,12 +42,15 @@ ul{
     flex-direction: row;
     gap: 25px;
 }
-.project h{
+.project a{
     font-size: 21px;
     font-weight: bold;
-    color: black;
+    /* color: black; */
+    text-align: start;
+}
+.credit{
+    font-size: 14px;
+    color:gray;
+    text-align: end;
 }
 
-.project li{
-    list-style-type: square;
-}
