@@ -1,0 +1,63 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Deep Scene Recognition</title>
+    <link rel="stylesheet" href="./scene-recognition.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Gentium Book Basic' rel='stylesheet'>
+  </head>
+  <body>
+    <div class="container">
+        <top>
+            <h1>Deep Scene Recognition</h1>
+        </top>
+        <main>
+            <row>
+                <column class="col-1">
+                    <image src="../resources/dataset.png" alt="Image of Recognition" width="500w" height="400h"/>
+                </column>
+                <column class="col-2">
+                    <ul>
+                        <li>Developed for my Fall 2023 Computer Vision class using PyTorch</li>
+                        <li>Created two deep neural networks for scene recognition in images</li>
+                        Trained on the following categories:
+                        <ul>
+                            <li>
+                                Bedroom, Coast, Forest, Highway, Industrial, InsideCity, Kitchen, LivingRoom, Mountain, Office, OpenCountry, Store, Street, Suburb, TallBuilding
+                            </li>
+                        </ul>
+                    </ul>
+                </column>
+            </row>
+            <h2>Custom Neural Network</h2>
+            <image src="../resources/net.jpg" alt="Network Pipeline" width="900w" height="400w"/>
+            <row>
+                <column class="col-1">
+                    <ul>
+                        <li>3 convolutional layers, 2 fully connected layers</li>
+                        <li>Utilized data augmentation and other overfitting techniques</li>
+                        <li>Achieved a testing accuracy around 60%</li>
+                    </ul>
+                </column>
+                <column class="col-2">
+                    <image src="../resources/CNN-Results.png" width="400w" height="400w"/>
+                </column>
+            </row>
+            <h2>AlexNet Extension</h2>
+            <row>
+                <column class="col-1">
+                    <image src="../resources/AlexNet-Results.png" width="400w" height="400w"/>
+                </column>
+                <column class="col-2">
+                    <ul>
+                        <li>Adapted the popular <a href="https://en.wikipedia.org/wiki/AlexNet">AlexNet</a> architecture</li>
+                        <li>Testing accuracy of around 88% (potential for higher results with additional training)</li>
+                    </ul>
+                </column>
+            </row>
+        </main>
+    </div>
+  </body>
+</html>
