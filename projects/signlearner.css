@@ -1,7 +1,13 @@
-top{
+header{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+h1{
+    text-align: center;
+    color:#1079ac;
+    font-size: 34px;
 }
 
 .container{
@@ -11,27 +17,42 @@ top{
     align-items: center;
     text-align: center;
     gap: 25px;
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Gentium Book Basic';
 }
 
-h1{
-    text-align: center;
-    color:#1079ac;
-    font-size: 34px;
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-main{
+section{
     display: flex;
     flex-direction: row;
     max-width: 50%;
     width: 50%;
     justify-content: center;
+    gap:25px;
 }
 
 column{
     display: flex;
     flex-direction: column;
+    text-align: start;
 }
 
+.col-2{
+    text-align: start;
+}
 
+column ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+figcaption{
+    font-size: 16px;
+}

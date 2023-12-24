@@ -1,4 +1,4 @@
-top{
+header{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +28,7 @@ main{
     align-items: center;
 }
 
-row{
+section{
     display: flex;
     flex-direction: row;
     max-width: 50%;
