@@ -41,13 +41,16 @@ ul{
 
 .project{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 25px;
 }
 .project a{
     font-size: 21px;
     font-weight: bold;
     /* color: black; */
+    text-align: start;
+}
+.summary{
     text-align: start;
 }
 .credit{

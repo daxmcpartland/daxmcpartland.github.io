@@ -56,3 +56,38 @@ column ul{
 figcaption{
     font-size: 16px;
 }
+@media only screen and (max-width: 768px) {
+    section {
+        flex-direction: column;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    column,
+    .col-2 {
+        text-align: center;
+    }
+
+    main {
+        padding: 0 15px;
+    }
+
+    figcaption {
+        text-align: center;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto; 
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    .container {
+        font-size: 16px;
+    }
+}
