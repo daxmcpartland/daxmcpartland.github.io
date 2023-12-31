@@ -23,7 +23,7 @@ aboutme{
     flex-direction: row;
     align-items: center;
     gap: 20px;
-    max-width: 45%;
+    max-width: 40%;
 }
 
 projects{
@@ -56,3 +56,12 @@ ul{
     text-align: end;
 }
 
+.selife{
+    height: 47vh;
+    width: 33vh;
+}
+@media (max-width: 600px) {
+    aboutme {
+        flex-direction: column;
+    }
+}
