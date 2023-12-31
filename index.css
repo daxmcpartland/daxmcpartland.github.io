@@ -59,12 +59,19 @@ ul{
     text-align: end;
 }
 
-.selife{
-    height: 47vh;
-    width: 33vh;
-}
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     aboutme {
         flex-direction: column;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto; 
+    }
+    h1 {
+        font-size: 28px;
+    }
+    .container {
+        font-size: 16px;
     }
 }
