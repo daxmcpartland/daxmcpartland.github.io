@@ -1,4 +1,55 @@
+.nav_bar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+
+nav .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.name{
+    font-size: 1.25rem;
+    color:#1079ac;
+    font-weight: 700;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.contacts{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contacts li{
+    text-transform: uppercase;
+    font-size: .9rem;
+    font-weight: 700;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+.contacts li a{
+    text-decoration: none;
+    color: inherit;
+}
+.contacts li:hover{
+    color: #1079ac;
+}
 header{
+    padding-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -6,63 +6,59 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dax McPartland</title>
     <link rel="stylesheet" href="./index.css">
+    <script src="index.js"></script> 
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <link href='https://fonts.googleapis.com/css?family=Gentium Book Basic' rel='stylesheet'>
   </head>
   <body>
-    <div class="container">
-      <contacts>
-        <h1 class="name">Dax McPartland</h1>
-        <div class="email">daxmcpartland@gmail.com</div>
-        <!-- <div class="occupation">Computer Science Student at the University of Utah</div> -->
-        <div class="soicals">
-          <a class="github" href="https://github.com/daxmcpartland">GitHub</a> ∙
-          <a class="resume" href="./resources/Dax_McPartland_Resume_portfolio.pdf">Resume</a> ∙
-          <a class="linkedin" href="https://www.linkedin.com/in/dax-mcpartland/">LinkedIn</a>
-        </div>
-      </contacts>
-      
-      <aboutme>
-        <!-- <img class="selife" src="./resources/me_smaller.png" alt="Picture of Me" height="400" width="500"> -->
-        <div class="summary">Currently studying Computer Science at the University of Utah. I am interested in Math and 
-          Computer Science. Some of my favorite topics are algorithms, machine learning, and artificial intelligence.
-        </div>
-      </aboutme>  
-
-      <projects>
-        <h2>Recent Projects:</h2>
-        <ul>
-          <li class="project">
-            <a href="./projects/signlearner.html">SignLearner</a>
-            <div class="summary">
-              SignLearner is an interactive mobile app to assist users in learning the alphabet in sign language. 
-              Using modern AI-powered image recognition the app will tell you how to do the signs correctly. 
-            </div>
-          </li>
-          <li class="project">
-            <a href="./projects/scene-recognition.html">Deep Scene Recognition</a>
-            <div class="summary">
-              Created and trained a deep neural network to recognize different scenes in images.
-            </div>
-          </li>
-          <li class="project">
-            <a>Online Snake Game</a>
-            <div class="summary">
-              Developed an application that allows users to play snake over the internet together. A fully functional 
-              client and server were created.
-            </div>
-          </li>
-          <li class="project">
-            <a href="https://breadthfirstsearch.z13.web.core.windows.net/">BFS Visualizer</a>
-            <div class="summary">
-              Created a webpage that allows users to run and interact with a visualization of the breadth first search algorithm.
-              <div class="credit">
-                (joint work with Donald McPartland)
-              </div>
-            </div>
-          </li>
+    <nav class="nav_bar">
+      <div class="container">
+        <a class="name">Dax McPartland</a>
+        <ul class="contacts">
+          <li><a href="https://github.com/daxmcpartland">GitHub</a></li>
+          <li><a href="./resources/Dax_McPartland_Resume_portfolio.pdf">CV</a></li>
+          <li><a href="https://www.linkedin.com/in/daxmcpartland">LinkedIn</a></li>
+          <li><a href="https://leetcode.com/u/NinnyBoBinny/">LeetCode</a></li>
         </ul>
-      </projects>
-    </div>
+      </div>
+    </nav>
+    <header>
+      <div class="title">
+        <h1>
+          <strong>Dax McPartland</strong>
+          <hr>
+        </h1>
+        <h3>
+          Computer Science Major at University of Utah
+        </h3>
+      </div>
+    </header>
+    <section>
+      <h2>Projects
+        <hr>
+      </h2>
+      <div class="projects">
+        <div class="signlearner" onclick="search_link('https\:\/\/github.com/daxmcpartland/SignLearner')">
+          <img src="./resources/signlearner.png"/>
+          <a>SignLearner</a>
+          <p>Mobile app to assist Sign language learners.</p>
+        </div>
+        <div class="dsr" onclick="redirect('scene-recognition')">
+          <img src="./resources/dataset.png"/>
+          <a>Deep Scene Recognition</a>
+          <p>Deep Neural Network that can recognize different scenes.</p>
+        </div>
+        <div class="snakegame" onclick="redirect('snake-game')">
+          <img src="./resources/snake_game.png"/>
+          <a>Online Snake Game</a>
+          <p>Multiplayer snake game.</p>
+        </div>
+        <div class="bfs_visual" onclick="search_link('https\:\/\/breadthfirstsearch.z13.web.core.windows.net/')">
+          <img src="./resources/bfs_visual.png"/>
+          <a>BFS Visualizer</a>
+          <p>Breadth first search algorithm visualizer.</p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
