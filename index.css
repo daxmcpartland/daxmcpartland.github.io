@@ -16,7 +16,6 @@ body {
     background-color: white;
     border-bottom: 1px solid black;
 }
-
 .container{
     display: flex;
     flex-direction: row;
@@ -132,3 +131,30 @@ h2{
    background-color: whitesmoke;
    opacity: 70%;
 }
+
+@media only screen and (max-width: 768px) {
+    .projects{
+        padding-top: 25px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .contacts li{
+        text-transform: uppercase;
+        font-size: .9rem;
+        font-weight: 700;
+        font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+        list-style-type: none;
+        padding-right: 10px;
+    }
+}
+
+/* @media only screen and (min-width: 700px) {
+    .nav-button {
+        display: none;
+    }
+} */
