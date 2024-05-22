@@ -3,7 +3,6 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    padding-top: 50px;
 }
 .nav_bar{
     position: fixed;
@@ -15,8 +14,9 @@ body {
     justify-content: center;
     background-color: white;
     border-bottom: 1px solid black;
+    height: 50px;
 }
-.container{
+nav .container{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -50,6 +50,7 @@ body {
 .contacts li a{
     text-decoration: none;
     color: inherit;
+    padding: 5px;
 }
 .contacts li:hover{
     color: #1079ac;
@@ -99,6 +100,7 @@ h2{
 
 .projects{
     padding-top: 25px;
+    width: 70%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
