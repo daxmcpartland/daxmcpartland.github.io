@@ -78,6 +78,21 @@ header h3{
     color: darkgray;
 }
 
+.worklink{
+	text-decoration: none;
+	text-decoration-color: darkgray;
+}
+
+.worklink:visited{
+	text-decoration: none;
+	color: darkgray;
+}
+
+.worklink:hover {
+	text-decoration: underline;
+	color: white;
+}
+
 hr{
     width: 50px;
     height: 2px;
@@ -103,7 +118,7 @@ h2{
     width: 70%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     gap: 20px;
 }
 
